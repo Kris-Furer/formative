@@ -1,6 +1,15 @@
+.cat {
+  margin-left: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-size: 100px;
-  color: #3ce8e8;
+  color: #576278;
 }
 
 /*# sourceMappingURL=custom.css.map */
