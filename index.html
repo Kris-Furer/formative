@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,48 @@
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/custom.css">
 </head>
+
 <body>
   <div class="container">
+
     <h1>News News News News News</h1>
-  <div class='row' id="objects">
+    <div class="search-section">
+      <h2>Search News</h2>
+      <div class="row my-3">
+        <div class="col">
+          <input id="keyword" class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </div>
+
+        <div class="col">
+          <select class="form-select" aria-label="Default select example">
+
+            <option id="category" selected>All</option>
+            <option value="business">Business</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="general">General</option>
+            <option value="health">Health</option>
+            <option value="science">Science</option>
+            <option value="sports">Sports</option>
+            <option value="technology">Technology</option>
+
+          </select>
+        </div>
+        <div class="col">
+          <div id="search" class="btn btn-primary">Search</div>
+        </div>
+      </div>
+      <!-- Search section ends -->
+    </div>
+
+    <div class='row my-5' id="objects">
+      <!-- Results injected here -->
+    </div>
 
   </div>
-
-</div>
-  <script src = 'node_modules/@popperjs/core/dist/umd/popper.min.js'></script>
-  <script src = 'node_modules/jquery/dist/jquery.min.js'></script>
-  <script src = 'node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
-  <script src = 'js/custom.js'></script>
+  <script src='node_modules/@popperjs/core/dist/umd/popper.min.js'></script>
+  <script src='node_modules/jquery/dist/jquery.min.js'></script>
+  <script src='node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
+  <script src='js/custom.js'></script>
 </body>
+
 </html>
