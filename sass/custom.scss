@@ -10,3 +10,25 @@ h1 {
   font-size: 100px;
   color:$primary
 }
+
+.card {
+  min-height:60vh;
+  max-height: 60vh;
+  overflow: hidden;
+
+
+}
+.card-text {
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card-body {
+  height:50%;
+}
+
+.card-body img {
+  height: 50%;
+  object-fit: cover;
+}

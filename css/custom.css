@@ -10,10 +10,27 @@
 h1 {
   font-size: 100px;
   color: #576278;
-  margin-bottom: 10%
 }
-.search-section {
-  margin-bottom: 10%;
+
+.card {
+  min-height: 60vh;
+  max-height: 60vh;
+  overflow: hidden;
+}
+
+.card-text {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card-body {
+  height: 50%;
+}
+
+.card-body img {
+  height: 50%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=custom.css.map */
