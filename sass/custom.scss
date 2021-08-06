@@ -6,6 +6,9 @@
   padding: 0;
 }
 
+body {
+  background-color:rgb(228, 234, 235);
+}
 h1 {
   font-size: 100px;
   color:$primary
@@ -15,20 +18,23 @@ h1 {
   min-height:60vh;
   max-height: 60vh;
   overflow: hidden;
+  background-color: rgb(246, 246, 246);
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
 
 
 }
 .card-text {
-  display:flex;
-  justify-content: space-between;
-  flex-direction: column;
+
 }
 
 .card-body {
   height:50%;
+
 }
 
-.card-body img {
-  height: 50%;
+.card-img {
+  height: 300px;
   object-fit: cover;
 }
